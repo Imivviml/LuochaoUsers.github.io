@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://LuochaoUsers.github.io/"/>
-  <updated>2018-05-11T07:39:10.546Z</updated>
+  <updated>2018-05-28T08:28:41.186Z</updated>
   <id>http://LuochaoUsers.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>JDBC连接池&amp;JDBCTemplate课堂笔记</title>
-    <link href="http://LuochaoUsers.github.io/2019/07/08/jdbc-lian-jie-chi-jdbctemplate-ke-tang-bi-ji/"/>
-    <id>http://LuochaoUsers.github.io/2019/07/08/jdbc-lian-jie-chi-jdbctemplate-ke-tang-bi-ji/</id>
-    <published>2019-07-08T14:19:08.836Z</published>
-    <updated>2018-05-11T07:39:10.546Z</updated>
+    <title>基础加强笔记</title>
+    <link href="http://LuochaoUsers.github.io/2019/10/17/ji-chu-jia-qiang-bi-ji/"/>
+    <id>http://LuochaoUsers.github.io/2019/10/17/ji-chu-jia-qiang-bi-ji/</id>
+    <published>2019-10-17T09:11:48.624Z</published>
+    <updated>2018-05-28T08:28:41.186Z</updated>
     
     <summary type="html">
     
@@ -29,9 +29,9 @@
       
         
         
-          &lt;h1 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. 数据库连接池
-
-2. Spring JDBC : JDBC
+          &lt;h1 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. Junit单元测试
+2. 反射
+3. 注解&lt;/code&gt;&lt;/pre&gt;&lt;h2
         
       
     
@@ -42,11 +42,11 @@
   </entry>
   
   <entry>
-    <title>JDBC课堂笔记</title>
-    <link href="http://LuochaoUsers.github.io/2019/06/23/jdbc-ke-tang-bi-ji/"/>
-    <id>http://LuochaoUsers.github.io/2019/06/23/jdbc-ke-tang-bi-ji/</id>
-    <published>2019-06-23T14:13:22.414Z</published>
-    <updated>2018-05-09T11:14:51.039Z</updated>
+    <title>xml笔记</title>
+    <link href="http://LuochaoUsers.github.io/2019/10/17/xml-bi-ji/"/>
+    <id>http://LuochaoUsers.github.io/2019/10/17/xml-bi-ji/</id>
+    <published>2019-10-17T09:11:41.397Z</published>
+    <updated>2018-05-30T09:42:50.476Z</updated>
     
     <summary type="html">
     
@@ -54,9 +54,468 @@
       
         
         
-          &lt;h1 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. JDBC基本概念
-2. 快速入门
-3. 对JDBC中各个接口和类详解&lt;/code&gt;&lt;/pre&gt;&lt;h2
+          &lt;h1 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. XML
+    1. 概念
+    2. 语法
+    3. 解析&lt;/code&gt;&lt;/pre&gt;&lt;h2
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Tomcat&amp;Servlet笔记</title>
+    <link href="http://LuochaoUsers.github.io/2019/10/17/tomcat-servlet-bi-ji/"/>
+    <id>http://LuochaoUsers.github.io/2019/10/17/tomcat-servlet-bi-ji/</id>
+    <published>2019-10-17T09:11:31.463Z</published>
+    <updated>2018-06-01T03:55:05.163Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. web相关概念回顾
+2. web服务器软件：Tomcat
+3.
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Response笔记</title>
+    <link href="http://LuochaoUsers.github.io/2019/10/17/response-bi-ji/"/>
+    <id>http://LuochaoUsers.github.io/2019/10/17/response-bi-ji/</id>
+    <published>2019-10-17T09:11:24.454Z</published>
+    <updated>2018-06-07T13:11:03.271Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. HTTP协议：响应消息
+2. Response对象
+3.
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Servlet&amp;HTTP&amp;Request笔记</title>
+    <link href="http://LuochaoUsers.github.io/2019/10/17/servlet-http-request-bi-ji/"/>
+    <id>http://LuochaoUsers.github.io/2019/10/17/servlet-http-request-bi-ji/</id>
+    <published>2019-10-17T09:11:16.785Z</published>
+    <updated>2018-06-04T09:45:42.005Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;今日内容：&quot;&gt;&lt;a href=&quot;#今日内容：&quot; class=&quot;headerlink&quot; title=&quot;今日内容：&quot;&gt;&lt;/a&gt;今日内容：&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. Servlet
+2. HTTP协议
+3. Request&lt;/code&gt;&lt;/pre&gt;&lt;h2
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>redis笔记</title>
+    <link href="http://LuochaoUsers.github.io/2019/10/17/redis-bi-ji/"/>
+    <id>http://LuochaoUsers.github.io/2019/10/17/redis-bi-ji/</id>
+    <published>2019-10-17T09:11:04.848Z</published>
+    <updated>2018-07-11T08:31:09.132Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;1. redis
+    1. 概念
+    2. 下载安装
+    3. 命令操作
+        1.
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL基础课堂笔记</title>
+    <link href="http://LuochaoUsers.github.io/2019/10/17/mysql-ji-chu-ke-tang-bi-ji/"/>
+    <id>http://LuochaoUsers.github.io/2019/10/17/mysql-ji-chu-ke-tang-bi-ji/</id>
+    <published>2019-10-17T09:10:58.430Z</published>
+    <updated>2018-04-26T02:56:45.448Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;数据库的基本概念&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL多表&amp;事务课堂笔记</title>
+    <link href="http://LuochaoUsers.github.io/2019/10/17/mysql-duo-biao-shi-wu-ke-tang-bi-ji/"/>
+    <id>http://LuochaoUsers.github.io/2019/10/17/mysql-duo-biao-shi-wu-ke-tang-bi-ji/</id>
+    <published>2019-10-17T09:10:58.429Z</published>
+    <updated>2018-05-06T05:11:18.586Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. 多表查询
+
+2. 事务
+
+3. DCL&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;多表查询：&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL约束课堂笔记</title>
+    <link href="http://LuochaoUsers.github.io/2019/10/17/mysql-yue-shu-ke-tang-bi-ji/"/>
+    <id>http://LuochaoUsers.github.io/2019/10/17/mysql-yue-shu-ke-tang-bi-ji/</id>
+    <published>2019-10-17T09:10:58.418Z</published>
+    <updated>2018-05-30T04:54:04.638Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. DQL:查询语句
+    1. 排序查询
+    2. 聚合函数
+    3. 分组查询
+   
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>EL&amp;JSTL笔记</title>
+    <link href="http://LuochaoUsers.github.io/2019/10/17/el-jstl-bi-ji/"/>
+    <id>http://LuochaoUsers.github.io/2019/10/17/el-jstl-bi-ji/</id>
+    <published>2019-10-17T09:10:40.792Z</published>
+    <updated>2018-06-13T04:58:32.486Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. JSP:
+    1. 指令
+    2. 注释
+    3. 内置对象
+
+2.
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>JQuery基础笔记</title>
+    <link href="http://LuochaoUsers.github.io/2019/10/17/jquery-ji-chu-bi-ji/"/>
+    <id>http://LuochaoUsers.github.io/2019/10/17/jquery-ji-chu-bi-ji/</id>
+    <published>2019-10-17T09:10:33.452Z</published>
+    <updated>2018-06-29T10:10:15.434Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;1. JQuery 基础：
+    1. 概念
+    2. 快速入门
+    3.
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>JQuery高级笔记</title>
+    <link href="http://LuochaoUsers.github.io/2019/10/17/jquery-gao-ji-bi-ji/"/>
+    <id>http://LuochaoUsers.github.io/2019/10/17/jquery-gao-ji-bi-ji/</id>
+    <published>2019-10-17T09:10:28.479Z</published>
+    <updated>2018-07-06T07:45:36.720Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;今日内容：&quot;&gt;&lt;a href=&quot;#今日内容：&quot; class=&quot;headerlink&quot; title=&quot;今日内容：&quot;&gt;&lt;/a&gt;今日内容：&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;1. JQuery 高级
+    1. 动画
+    2. 遍历
+    3. 事件绑定
+   
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript高级笔记</title>
+    <link href="http://LuochaoUsers.github.io/2019/10/17/javascript-gao-ji-bi-ji/"/>
+    <id>http://LuochaoUsers.github.io/2019/10/17/javascript-gao-ji-bi-ji/</id>
+    <published>2019-10-17T09:10:13.484Z</published>
+    <updated>2018-05-21T03:30:11.211Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;今日内容：&quot;&gt;&lt;a href=&quot;#今日内容：&quot; class=&quot;headerlink&quot; title=&quot;今日内容：&quot;&gt;&lt;/a&gt;今日内容：&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. JavaScript：
+    1. ECMAScript：
+    2. BOM：
+   
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript基础笔记</title>
+    <link href="http://LuochaoUsers.github.io/2019/10/17/javascript-ji-chu-bi-ji/"/>
+    <id>http://LuochaoUsers.github.io/2019/10/17/javascript-ji-chu-bi-ji/</id>
+    <published>2019-10-17T09:10:13.482Z</published>
+    <updated>2018-05-17T09:46:02.294Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. JavaScript基础&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;JavaScript：&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>HTML&amp;CSS课堂笔记</title>
+    <link href="http://LuochaoUsers.github.io/2019/10/17/html-css-ke-tang-bi-ji/"/>
+    <id>http://LuochaoUsers.github.io/2019/10/17/html-css-ke-tang-bi-ji/</id>
+    <published>2019-10-17T09:09:53.754Z</published>
+    <updated>2018-05-15T09:35:31.267Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;今日内容：&quot;&gt;&lt;a href=&quot;#今日内容：&quot; class=&quot;headerlink&quot; title=&quot;今日内容：&quot;&gt;&lt;/a&gt;今日内容：&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. HTML标签：表单标签
+
+2. CSS：&lt;/code&gt;&lt;/pre&gt;&lt;h2
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>HTML课堂笔记</title>
+    <link href="http://LuochaoUsers.github.io/2019/10/17/html-ke-tang-bi-ji/"/>
+    <id>http://LuochaoUsers.github.io/2019/10/17/html-ke-tang-bi-ji/</id>
+    <published>2019-10-17T09:09:53.751Z</published>
+    <updated>2018-05-14T02:04:00.662Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. web概念概述
+2. HTML&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;web概念概述&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Filter&amp;Listener笔记</title>
+    <link href="http://LuochaoUsers.github.io/2019/10/17/filter-listener-bi-ji/"/>
+    <id>http://LuochaoUsers.github.io/2019/10/17/filter-listener-bi-ji/</id>
+    <published>2019-10-17T09:09:46.427Z</published>
+    <updated>2018-06-21T10:11:26.953Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;1. Filter：过滤器
+2. Listener：监听器&lt;/code&gt;&lt;/pre&gt;&lt;h1
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Cookie&amp;Session笔记</title>
+    <link href="http://LuochaoUsers.github.io/2019/10/17/cookie-session-bi-ji/"/>
+    <id>http://LuochaoUsers.github.io/2019/10/17/cookie-session-bi-ji/</id>
+    <published>2019-10-17T09:09:37.575Z</published>
+    <updated>2018-06-10T11:55:49.972Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. 会话技术
+    1. Cookie
+    2. Session
+2.
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>BootStrap笔记</title>
+    <link href="http://LuochaoUsers.github.io/2019/10/17/bootstrap-bi-ji/"/>
+    <id>http://LuochaoUsers.github.io/2019/10/17/bootstrap-bi-ji/</id>
+    <published>2019-10-17T09:09:31.470Z</published>
+    <updated>2018-05-23T08:57:24.133Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. Bootstrap&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Bootstrap：&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Ajax&amp;Json笔记</title>
+    <link href="http://LuochaoUsers.github.io/2019/10/17/ajax-json-bi-ji/"/>
+    <id>http://LuochaoUsers.github.io/2019/10/17/ajax-json-bi-ji/</id>
+    <published>2019-10-17T09:09:25.533Z</published>
+    <updated>2018-07-07T11:07:53.833Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;1. AJAX：
+2. JSON&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;AJAX：&quot;&gt;&lt;a
         
       
     
