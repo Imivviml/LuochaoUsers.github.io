@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="zh-CN">
 
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="JDBC课堂笔记, Hexo">
+    <meta name="keywords" content="JDBC课堂笔记, 个人博客">
     <meta name="description" content="今日内容1. JDBC基本概念
 2. 快速入门
 3. 对JDBC中各个接口和类详解JDBC：1. 概念：Java DataBase Connectivity  Java 数据库连接， Java语言操作数据库
@@ -16,7 +16,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>JDBC课堂笔记 | Hexo</title>
+    <title>JDBC课堂笔记 | 个人博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -29,7 +29,7 @@
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
     
-</head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 <body>
@@ -41,7 +41,7 @@
                     
                     <img src="/medias/logo.png" class="logo-img" alt="LOGO">
                     
-                    <span class="logo-span">Hexo</span>
+                    <span class="logo-span">个人博客</span>
                 </a>
             </div>
             
@@ -55,7 +55,7 @@
       
       <i class="fas fa-home" style="zoom: 0.6;"></i>
       
-      <span>Index</span>
+      <span>首页</span>
     </a>
     
   </li>
@@ -66,7 +66,7 @@
       
       <i class="fas fa-tags" style="zoom: 0.6;"></i>
       
-      <span>Tags</span>
+      <span>标签</span>
     </a>
     
   </li>
@@ -77,7 +77,7 @@
       
       <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
       
-      <span>Categories</span>
+      <span>分类</span>
     </a>
     
   </li>
@@ -88,7 +88,7 @@
       
       <i class="fas fa-archive" style="zoom: 0.6;"></i>
       
-      <span>Archives</span>
+      <span>归档</span>
     </a>
     
   </li>
@@ -97,20 +97,9 @@
     
     <a href="/about" class="waves-effect waves-light">
       
-      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      <i class="fas fa-user-circle-o" style="zoom: 0.6;"></i>
       
-      <span>About</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/contact" class="waves-effect waves-light">
-      
-      <i class="fas fa-comments" style="zoom: 0.6;"></i>
-      
-      <span>Contact</span>
+      <span>关于</span>
     </a>
     
   </li>
@@ -121,14 +110,66 @@
       
       <i class="fas fa-address-book" style="zoom: 0.6;"></i>
       
-      <span>Friends</span>
+      <span>友情链接</span>
     </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-list" style="zoom: 0.6;"></i>
+      
+      <span>Medias</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/musics">
+          
+          <i class="fas fa-music" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Musics</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/movies">
+          
+          <i class="fas fa-film" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Movies</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/books">
+          
+          <i class="fas fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Books</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/galleries">
+          
+          <i class="fas fa-image" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Galleries</span>
+        </a>
+      </li>
+      
+    </ul>
     
   </li>
   
   <li>
     <a href="#searchModal" class="modal-trigger waves-effect waves-light">
-      <i id="searchIcon" class="fas fa-search" title="Search" style="zoom: 0.85;"></i>
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
     </a>
   </li>
 </ul>
@@ -139,7 +180,7 @@
         
         <img src="/medias/logo.png" class="logo-img circle responsive-img">
         
-        <div class="logo-name">Hexo</div>
+        <div class="logo-name">个人博客</div>
         <div class="logo-desc">
             
             Never really desperate, only the lost of the soul.
@@ -157,7 +198,7 @@
 			
 			    <i class="fa-fw fas fa-home"></i>
 			
-			Index
+			首页
 		</a>
           
         </li>
@@ -168,7 +209,7 @@
 			
 			    <i class="fa-fw fas fa-tags"></i>
 			
-			Tags
+			标签
 		</a>
           
         </li>
@@ -179,7 +220,7 @@
 			
 			    <i class="fa-fw fas fa-bookmark"></i>
 			
-			Categories
+			分类
 		</a>
           
         </li>
@@ -190,7 +231,7 @@
 			
 			    <i class="fa-fw fas fa-archive"></i>
 			
-			Archives
+			归档
 		</a>
           
         </li>
@@ -199,20 +240,9 @@
 	  
 		<a href="/about" class="waves-effect waves-light">
 			
-			    <i class="fa-fw fas fa-user-circle"></i>
+			    <i class="fa-fw fas fa-user-circle-o"></i>
 			
-			About
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/contact" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-comments"></i>
-			
-			Contact
+			关于
 		</a>
           
         </li>
@@ -223,8 +253,63 @@
 			
 			    <i class="fa-fw fas fa-address-book"></i>
 			
-			Friends
+			友情链接
 		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-list"></i>
+			
+			Medias
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>   
+				
+                  <a href="/musics " style="margin-left:75px";>
+				  
+				   <i class="fa fas fa-music" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Musics</span>
+                  </a>
+                </li>
+              
+                <li>   
+				
+                  <a href="/movies " style="margin-left:75px";>
+				  
+				   <i class="fa fas fa-film" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Movies</span>
+                  </a>
+                </li>
+              
+                <li>   
+				
+                  <a href="/books " style="margin-left:75px";>
+				  
+				   <i class="fa fas fa-book" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Books</span>
+                  </a>
+                </li>
+              
+                <li>   
+				
+                  <a href="/galleries " style="margin-left:75px";>
+				  
+				   <i class="fa fas fa-image" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Galleries</span>
+                  </a>
+                </li>
+               
+            </ul>
           
         </li>
         
@@ -424,7 +509,7 @@
                 <div class="col s7">
                     
                           <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
+                            <span class="chip bg-color">无标签</span>
                           </div>
                     
                 </div>
@@ -435,15 +520,29 @@
 
             <div class="post-info">
                 <div class="post-date info-break-policy">
-                    <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
                     2019-06-23
                 </div>
 
                 
+                    
+                    <div class="info-break-policy">
+                        <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        2.5k
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        11 分
+                    </div>
+                    
+                
 				
 				
                     <div id="busuanzi_container_page_pv" class="info-break-policy">
-                        <i class="far fa-eye fa-fw"></i>Read Count:&nbsp;&nbsp;
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
                         <span id="busuanzi_value_page_pv"></span>
                     </div>
 				
@@ -473,11 +572,11 @@
     * 代码实现：
           //1. 导入驱动jar包
         //2.注册驱动
-        Class.forName(&quot;com.mysql.jdbc.Driver&quot;);
+        Class.forName("com.mysql.jdbc.Driver");
         //3.获取数据库连接对象
-        Connection conn = DriverManager.getConnection(&quot;jdbc:mysql://localhost:3306/db3&quot;, &quot;root&quot;, &quot;root&quot;);
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/db3", "root", "root");
         //4.定义sql语句
-        String sql = &quot;update account set balance = 500 where id = 1&quot;;
+        String sql = "update account set balance = 500 where id = 1";
         //5.获取执行sql的对象 Statement
         Statement stmt = conn.createStatement();
         //6.执行sql
@@ -493,13 +592,13 @@
         * 功能：
             1. 注册驱动：告诉程序该使用哪一个数据库驱动jar
                 static void registerDriver(Driver driver) :注册与给定的驱动程序 DriverManager 。 
-                写代码使用：  Class.forName(&quot;com.mysql.jdbc.Driver&quot;);
+                写代码使用：  Class.forName("com.mysql.jdbc.Driver");
                 通过查看源码发现：在com.mysql.jdbc.Driver类中存在静态代码块
                  static {
                         try {
                             java.sql.DriverManager.registerDriver(new Driver());
                         } catch (SQLException E) {
-                            throw new RuntimeException(&quot;Can&apos;t register driver!&quot;);
+                            throw new RuntimeException("Can't register driver!");
                         }
                     }
 
@@ -538,11 +637,11 @@
                 Connection conn = null;
                 try {
                     //1. 注册驱动
-                    Class.forName(&quot;com.mysql.jdbc.Driver&quot;);
+                    Class.forName("com.mysql.jdbc.Driver");
                     //2. 定义sql
-                    String sql = &quot;insert into account values(null,&apos;王五&apos;,3000)&quot;;
+                    String sql = "insert into account values(null,'王五',3000)";
                     //3.获取Connection对象
-                    conn = DriverManager.getConnection(&quot;jdbc:mysql:///db3&quot;, &quot;root&quot;, &quot;root&quot;);
+                    conn = DriverManager.getConnection("jdbc:mysql:///db3", "root", "root");
                     //4.获取执行sql的对象 Statement
                     stmt = conn.createStatement();
                     //5.执行sql
@@ -550,9 +649,9 @@
                     //6.处理结果
                     System.out.println(count);
                     if(count &gt; 0){
-                        System.out.println(&quot;添加成功！&quot;);
+                        System.out.println("添加成功！");
                     }else{
-                        System.out.println(&quot;添加失败！&quot;);
+                        System.out.println("添加失败！");
                     }
 
                 } catch (ClassNotFoundException e) {
@@ -586,7 +685,7 @@
             * Xxx：代表数据类型   如： int getInt() ,    String getString()
             * 参数：
                 1. int：代表列的编号,从1开始   如： getString(1)
-                2. String：代表列名称。 如： getDouble(&quot;balance&quot;)
+                2. String：代表列名称。 如： getDouble("balance")
 
         * 注意：
             * 使用步骤：
@@ -599,10 +698,10 @@
                     //获取数据
                     //6.2 获取数据
                     int id = rs.getInt(1);
-                    String name = rs.getString(&quot;name&quot;);
+                    String name = rs.getString("name");
                     double balance = rs.getDouble(3);
 
-                    System.out.println(id + &quot;---&quot; + name + &quot;---&quot; + balance);
+                    System.out.println(id + "---" + name + "---" + balance);
                 }
 
         * 练习：
@@ -613,8 +712,8 @@
 
     5. PreparedStatement：执行sql的对象
         1. SQL注入问题：在拼接sql时，有一些sql的特殊关键字参与字符串的拼接。会造成安全性问题
-            1. 输入用户随便，输入密码：a&apos; or &apos;a&apos; = &apos;a
-            2. sql：select * from user where username = &apos;fhdsjkf&apos; and password = &apos;a&apos; or &apos;a&apos; = &apos;a&apos; 
+            1. 输入用户随便，输入密码：a' or 'a' = 'a
+            2. sql：select * from user where username = 'fhdsjkf' and password = 'a' or 'a' = 'a' 
 
         2. 解决sql注入问题：使用PreparedStatement对象来解决
         3. 预编译的SQL：参数使用?作为占位符
@@ -667,18 +766,18 @@
 
             //获取src路径下的文件的方式---&gt;ClassLoader 类加载器
             ClassLoader classLoader = JDBCUtils.class.getClassLoader();
-            URL res  = classLoader.getResource(&quot;jdbc.properties&quot;);
+            URL res  = classLoader.getResource("jdbc.properties");
             String path = res.getPath();
             System.out.println(path);///D:/IdeaProjects/itcast/out/production/day04_jdbc/jdbc.properties
             //2. 加载文件
-           // pro.load(new FileReader(&quot;D:\\IdeaProjects\\itcast\\day04_jdbc\\src\\jdbc.properties&quot;));
+           // pro.load(new FileReader("D:\\IdeaProjects\\itcast\\day04_jdbc\\src\\jdbc.properties"));
             pro.load(new FileReader(path));
 
             //3. 获取数据，赋值
-            url = pro.getProperty(&quot;url&quot;);
-            user = pro.getProperty(&quot;user&quot;);
-            password = pro.getProperty(&quot;password&quot;);
-            driver = pro.getProperty(&quot;driver&quot;);
+            url = pro.getProperty("url");
+            user = pro.getProperty("user");
+            password = pro.getProperty("password");
+            driver = pro.getProperty("driver");
             //4. 注册驱动
             Class.forName(driver);
         } catch (IOException e) {
@@ -759,7 +858,7 @@
     * 需求：
         1. 通过键盘录入用户名和密码
         2. 判断用户是否登录成功
-            * select * from user where username = &quot;&quot; and password = &quot;&quot;;
+            * select * from user where username = "" and password = "";
             * 如果这个sql有查询结果，则成功，反之，则失败
 
     * 步骤：
@@ -771,8 +870,8 @@
 
             );
 
-            INSERT INTO USER VALUES(NULL,&apos;zhangsan&apos;,&apos;123&apos;);
-            INSERT INTO USER VALUES(NULL,&apos;lisi&apos;,&apos;234&apos;);
+            INSERT INTO USER VALUES(NULL,'zhangsan','123');
+            INSERT INTO USER VALUES(NULL,'lisi','234');
 
         2. 代码实现：
             public class JDBCDemo9 {
@@ -780,18 +879,18 @@
                 public static void main(String[] args) {
                     //1.键盘录入，接受用户名和密码
                     Scanner sc = new Scanner(System.in);
-                    System.out.println(&quot;请输入用户名：&quot;);
+                    System.out.println("请输入用户名：");
                     String username = sc.nextLine();
-                    System.out.println(&quot;请输入密码：&quot;);
+                    System.out.println("请输入密码：");
                     String password = sc.nextLine();
                     //2.调用方法
                     boolean flag = new JDBCDemo9().login(username, password);
                     //3.判断结果，输出不同语句
                     if(flag){
                         //登录成功
-                        System.out.println(&quot;登录成功！&quot;);
+                        System.out.println("登录成功！");
                     }else{
-                        System.out.println(&quot;用户名或密码错误！&quot;);
+                        System.out.println("用户名或密码错误！");
                     }
 
 
@@ -814,7 +913,7 @@
                     try {
                         conn =  JDBCUtils.getConnection();
                         //2.定义sql
-                        String sql = &quot;select * from user where username = &apos;&quot;+username+&quot;&apos; and password = &apos;&quot;+password+&quot;&apos; &quot;;
+                        String sql = "select * from user where username = '"+username+"' and password = '"+password+"' ";
                         //3.获取执行sql的对象
                         stmt = conn.createStatement();
                         //4.执行查询
@@ -865,9 +964,9 @@
 
                 //2.定义sql
                 //2.1 张三 - 500
-                String sql1 = &quot;update account set balance = balance - ? where id = ?&quot;;
+                String sql1 = "update account set balance = balance - ? where id = ?";
                 //2.2 李四 + 500
-                String sql2 = &quot;update account set balance = balance + ? where id = ?&quot;;
+                String sql2 = "update account set balance = balance + ? where id = ?";
                 //3.获取执行sql对象
                 pstmt1 = conn.prepareStatement(sql1);
                 pstmt2 = conn.prepareStatement(sql2);
@@ -903,7 +1002,25 @@
 
         }
 
-    }</code></pre>
+    }</code></pre><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -914,34 +1031,34 @@
             <div class="reprint__author">
                 <span class="reprint-meta" style="font-weight: bold;">
                     <i class="fas fa-user">
-                        Author:
+                        文章作者:
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://yoursite.com" rel="external nofollow noreferrer">John Doe</a>
+                    <a href="http://LuochaoUsers.github.io" rel="external nofollow noreferrer">LC</a>
                 </span>
             </div>
             <div class="reprint__type">
                 <span class="reprint-meta" style="font-weight: bold;">
                     <i class="fas fa-link">
-                        Link:
+                        文章链接:
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://yoursite.com/2019/06/23/JDBC%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/">http://yoursite.com/2019/06/23/JDBC%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/</a>
+                    <a href="http://LuochaoUsers.github.io/2019/06/23/jdbc-ke-tang-bi-ji/">http://LuochaoUsers.github.io/2019/06/23/jdbc-ke-tang-bi-ji/</a>
                 </span>
             </div>
             <div class="reprint__notice">
                 <span class="reprint-meta" style="font-weight: bold;">
                     <i class="fas fa-copyright">
-                        Reprint policy:
+                        版权声明:
                     </i>
                 </span>
                 <span class="reprint-info">
-                    All articles in this blog are used except for special statements
+                    本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
-                    reprint polocy. If reproduced, please indicate source
-                    <a href="http://yoursite.com" target="_blank">John Doe</a>
+                    许可协议。转载请注明来源
+                    <a href="http://LuochaoUsers.github.io" target="_blank">LC</a>
                     !
                 </span>
             </div>
@@ -950,7 +1067,7 @@
 
     <script async defer>
       document.addEventListener("copy", function (e) {
-        let toastHTML = '<span>Copied successfully, please follow the reprint policy of this article</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">more</a>';
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
         M.toast({html: toastHTML})
       });
 
@@ -965,7 +1082,7 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
+                            <span class="chip bg-color">无标签</span>
                         </div>
                     
                 </div>
@@ -985,132 +1102,6 @@
 
                 </div>
             </div>
-            
-                <style>
-    #reward {
-        margin: 40px 0;
-        text-align: center;
-    }
-
-    #reward .reward-link {
-        font-size: 1.4rem;
-        line-height: 38px;
-    }
-
-    #reward .btn-floating:hover {
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
-    }
-
-    #rewardModal {
-        width: 320px;
-        height: 350px;
-    }
-
-    #rewardModal .reward-title {
-        margin: 15px auto;
-        padding-bottom: 5px;
-    }
-
-    #rewardModal .modal-content {
-        padding: 10px;
-    }
-
-    #rewardModal .close {
-        position: absolute;
-        right: 15px;
-        top: 15px;
-        color: rgba(0, 0, 0, 0.5);
-        font-size: 1.3rem;
-        line-height: 20px;
-        cursor: pointer;
-    }
-
-    #rewardModal .close:hover {
-        color: #ef5350;
-        transform: scale(1.3);
-        -moz-transform:scale(1.3);
-        -webkit-transform:scale(1.3);
-        -o-transform:scale(1.3);
-    }
-
-    #rewardModal .reward-tabs {
-        margin: 0 auto;
-        width: 210px;
-    }
-
-    .reward-tabs .tabs {
-        height: 38px;
-        margin: 10px auto;
-        padding-left: 0;
-    }
-
-    .reward-content ul {
-        padding-left: 0 !important;
-    }
-
-    .reward-tabs .tabs .tab {
-        height: 38px;
-        line-height: 38px;
-    }
-
-    .reward-tabs .tab a {
-        color: #fff;
-        background-color: #ccc;
-    }
-
-    .reward-tabs .tab a:hover {
-        background-color: #ccc;
-        color: #fff;
-    }
-
-    .reward-tabs .wechat-tab .active {
-        color: #fff !important;
-        background-color: #22AB38 !important;
-    }
-
-    .reward-tabs .alipay-tab .active {
-        color: #fff !important;
-        background-color: #019FE8 !important;
-    }
-
-    .reward-tabs .reward-img {
-        width: 210px;
-        height: 210px;
-    }
-</style>
-
-<div id="reward">
-    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
-
-    <!-- Modal Structure -->
-    <div id="rewardModal" class="modal">
-        <div class="modal-content">
-            <a class="close modal-close"><i class="fas fa-times"></i></a>
-            <h4 class="reward-title">你的赏识是我前进的动力</h4>
-            <div class="reward-content">
-                <div class="reward-tabs">
-                    <ul class="tabs row">
-                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
-                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
-                    </ul>
-                    <div id="alipay">
-                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
-                    </div>
-                    <div id="wechat">
-                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<script>
-    $(function () {
-        $('.tabs').tabs();
-    });
-</script>
-
             
         </div>
     </div>
@@ -1132,9 +1123,9 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2019/07/08/JDBC%E8%BF%9E%E6%8E%A5%E6%B1%A0&JDBCTemplate%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/">
+                <a href="/2019/07/08/jdbc-lian-jie-chi-jdbctemplate-ke-tang-bi-ji/">
                     <div class="card-image">
                         
                         
@@ -1159,7 +1150,7 @@
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
-                            John Doe
+                            LC
                             
                         </span>
                     </div>
@@ -1171,10 +1162,10 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                Current&nbsp;<i class="far fa-dot-circle"></i>
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/2019/06/23/JDBC%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/">
+                <a href="/2019/06/23/jdbc-ke-tang-bi-ji/">
                     <div class="card-image">
                         
                         
@@ -1199,7 +1190,7 @@
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
-                            John Doe
+                            LC
                             
                         </span>
                     </div>
@@ -1247,7 +1238,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
     </div>
     <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
         <div class="toc-widget">
-            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;TOC</div>
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
             <div id="toc-content"></div>
         </div>
     </div>
@@ -1349,10 +1340,13 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             <span id="year">年份</span>
-            <a href="http://yoursite.com" target="_blank">John Doe</a>
+            <a href="http://LuochaoUsers.github.io" target="_blank">LC</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">4.1k</span>&nbsp;字
             
             
             
@@ -1421,24 +1415,9 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fas fa-rss"></i>
+    <a href="https://github.com/LuochaoUsers" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
     </a>
-
 </div>
     </div>
 </footer>
@@ -1450,8 +1429,8 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;Search</span>
-            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
                    class="search-input">
         </div>
         <div id="searchResult"></div>
@@ -1501,8 +1480,6 @@ $(function () {
     })();
 </script>
 
-    
-    <script src="/libs/others/clicklove.js" async="async"></script>
     
     
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>
